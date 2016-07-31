@@ -1,0 +1,76 @@
+
+h1{text-align:center;
+text-transform:capitalize;
+}
+
+div1{
+text-align:justify;
+font-family:timesnew roman;
+text-transform:capitalize;
+background-color:gray;
+border:3px solid black;
+width:480px;
+padding:0px 5px 5px 5px;
+float:left;
+margin:8px;
+}
+div2{
+text-align:justify;
+font-family:timesnew roman;
+text-transform:capitalize;
+background-color:gray;
+border:3px solid black;
+width:480px;
+padding:0px 5px 5px 5px;
+float:left;
+margin:8px;
+}
+div3{
+text-align:justify;
+font-family:timesnew roman;
+text-transform:capitalize;
+background-color:gray;
+border:3px solid black;
+width:480px;
+padding:0px 5px 5px 5px;
+float:left;
+margin:8px;
+}
+div{
+font-size:1.2em;
+text-align:center;
+text-transform:capitalize;
+font-weight:bold;
+background-color:pink;
+border-left:3px solid black;
+border-bottom:3px solid black;
+width:35%;
+height:25px;
+left:65.4%;
+position:relative;
+p{clear:both}
+}
+@media (min-width:992px){
+div1{
+width:30%;}
+div2{
+width:30%;}
+div3{
+width:30%;}
+}
+@media (min-width:768px) and (max-width:991px){
+div1{
+ width:44%}
+div2{
+ width:44%}
+div3{
+ width:92.5%}
+}
+@media (max-width:767px){
+div1{
+ width:95%}
+div2{
+ width:95%}
+div3{
+ width:95%}
+}
